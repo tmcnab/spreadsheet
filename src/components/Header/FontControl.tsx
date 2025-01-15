@@ -1,5 +1,6 @@
 import { Bold, Italic, Underline } from 'react-feather'
 import Flex from '../Flex'
+import FontSizeInput from './FontSizeInput'
 
 export default function FontControl () {
 	return (
@@ -13,14 +14,7 @@ export default function FontControl () {
 			<button>
 				<Italic />
 			</button>
-			<select>
-				<option>8</option>
-				<option>10</option>
-				<option>12</option>
-				<option>14</option>
-				<option>24</option>
-				<option>36</option>
-			</select>
+			<FontSizeInput />
 			<select>
 				<option>Cursive</option>
 				<option>Fantasy</option>

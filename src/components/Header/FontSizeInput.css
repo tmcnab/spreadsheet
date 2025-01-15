@@ -1,0 +1,9 @@
+.font-size-input {
+	display: flex;
+	height: 100%;
+
+	input {
+		text-align: right;
+		max-width: 4rem;
+	}
+}
