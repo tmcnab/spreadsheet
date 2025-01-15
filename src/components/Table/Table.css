@@ -1,0 +1,18 @@
+.Table {
+	min-width: 100%;
+	max-height: 100%;
+}
+
+.Table td {
+	border: 1px solid lightgray;
+	min-width: 2rem;
+	text-align: right;
+}
+
+.Table th {
+	font-weight: bold;
+}
+
+.Table tbody {
+	overflow: scroll;
+}

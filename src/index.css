@@ -23,8 +23,13 @@ body {
   margin: 0;
 }
 
+body>header {
+  flex-grow: 1;
+}
+
 body>footer {
   border-top: 1px solid darkgray;
+  flex-grow: 1;
 }
 
 button {
@@ -37,8 +42,8 @@ button {
   padding: 0;
 }
 
-main {
-  flex-grow: 1;
+body>main {
+  flex-grow: 8;
 }
 
 select {
