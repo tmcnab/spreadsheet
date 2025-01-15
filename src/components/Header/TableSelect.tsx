@@ -6,9 +6,10 @@ const data = [{
 }]
 
 export default function TableSelect () {
-	const children = data.map(item => 
+	const children = data.map((item, key) => 
 		<option 
 			disabled={item.disabled}
+			key={key}
 			label={item.label}
 			selected={item.selected}
 			value={item.value}

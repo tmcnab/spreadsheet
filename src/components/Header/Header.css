@@ -11,3 +11,7 @@ body > header > section {
 	display: flex;
 	justify-content: space-between;
 }
+
+.CellValueControl {
+	min-width: 50vw;
+}

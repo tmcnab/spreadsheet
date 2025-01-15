@@ -1,4 +1,5 @@
 import { times } from 'lodash'
+import Cell from './Cell'
 
 export interface RowProps {
 	index: number
@@ -9,7 +10,7 @@ export default function Row ({index}: RowProps) {
 		<tr>
 			<th>{index}</th>
 		{times(26, (n) => 
-			<td contentEditable key={`td-${index}-${n}`} />
+			<Cell name={`${index}-${n}`} />
 		)}
 		</tr>
 	)

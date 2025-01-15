@@ -1,3 +1,3 @@
 export default function CellValueControl () {
-	return <input placeholder='Value' />
+	return <input className='CellValueControl' placeholder='Value' />
 }
