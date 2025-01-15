@@ -53,3 +53,7 @@ select {
 input {
   border: 1px solid darkgray;
 }
+
+button, input, select {
+  background-color: transparent;
+}
