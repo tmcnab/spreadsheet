@@ -5,12 +5,7 @@ export default function Application () {
 	return (
 		<>
 			<Header />
-			<main>
-				<Table />
-			</main>
-			<footer>
-				Tables
-			</footer>
+			<Table />
 		</>
 	)
 }
