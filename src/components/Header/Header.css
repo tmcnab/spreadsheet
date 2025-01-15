@@ -1,0 +1,10 @@
+body > header {
+	border-bottom: 1px solid darkgray;
+	display: flex;
+	gap: 1rem;
+	padding: 0.5rem;
+}
+
+.divider {
+	border-right: 1px solid darkgray;
+}
