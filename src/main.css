@@ -9,11 +9,11 @@
 }
 
 * {
+  border-radius: 0;
   font-size: 16px;
   font-weight: normal;
   margin: 0;
   padding: 0;
-  border-radius: 0;
 }
 
 body {
@@ -24,22 +24,9 @@ body {
 }
 
 body>header {
-  flex-grow: 1;
-}
-
-body>footer {
-  border-top: 1px solid darkgray;
-  flex-grow: 1;
-}
-
-button {
-  align-items: center;
-  border: 1px solid darkgray;
   display: flex;
-  height: 2rem;
-  min-width: 2rem;
-  justify-content: center;
-  padding: 0;
+  justify-content: space-between;
+  padding: 0.5rem;
 }
 
 body>main {
@@ -49,16 +36,20 @@ body>main {
   overflow: scroll;
 }
 
-select {
-  height: 2rem;
-}
-
-input {
+button {
+  align-items: center;
   border: 1px solid darkgray;
+  display: flex;
+  height: 2rem;
+  justify-content: center;
+  min-width: 2rem;
+  padding: 0;
 }
 
 button,
 input,
 select {
   background-color: transparent;
+  border: 1px solid darkgray;
+  height: 2rem;
 }

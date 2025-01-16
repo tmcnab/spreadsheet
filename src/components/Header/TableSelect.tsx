@@ -16,9 +16,5 @@ export default function TableSelect () {
 		/>
 	)
 
-	const style = {
-		minWidth: '20vw',
-	}
-
-	return <select style={style}>{children}</select>
+	return <select>{children}</select>
 }

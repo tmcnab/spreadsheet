@@ -1,6 +1,7 @@
-import { times } from 'lodash'
-import Row from './Row'
 import './Table.css'
+import { times } from 'lodash'
+import RangeCell from './RangeCell'
+import Row from './Row'
 
 export default function Table() {
 	return (
@@ -8,7 +9,7 @@ export default function Table() {
 			<table className='Table'>
 				<thead>
 					<tr>
-						<th />
+						<RangeCell />
 						{times(26, (n) => {
 							const children = String.fromCharCode('A'.charCodeAt(0) + n)
 							return <th key={`th-{n}`}>{children}</th>

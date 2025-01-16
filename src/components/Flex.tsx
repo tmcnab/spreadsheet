@@ -1,11 +1,13 @@
 import { CSSProperties, ReactNode } from 'react'
 
 export interface FlexProps {
-	children: ReactNode	
+	children: ReactNode
+	style?: CSSProperties
 }
 
 export default function Flex (props: FlexProps) {
 	const style: CSSProperties = {
+		...props.style,
 		alignItems: 'center',
 		display: 'flex',
 	}

@@ -1,9 +1,4 @@
-import {
-	CornerDownLeft,
-	CornerUpRight,
-	Download,
-	Upload,
-} from "react-feather"
+import { CornerDownLeft, CornerUpRight } from "react-feather"
 import Flex from "../Flex"
 
 export default function HistoryControl() {
@@ -11,15 +6,6 @@ export default function HistoryControl() {
 		<Flex>
 			<button>
 				<CornerDownLeft />
-			</button>
-			<button>
-				<Upload />
-			</button>
-			<select>
-				<option value=''>Checkpoint</option>
-			</select>
-			<button>
-				<Download />
 			</button>
 			<button>
 				<CornerUpRight />
